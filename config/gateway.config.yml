@@ -9,7 +9,7 @@ apiEndpoints:
     paths: '/'
 serviceEndpoints:
   httpbin:
-    url: 'http://localhost:8300'
+    url: 'https://xdemic-api.herokuapp.com/'
 policies:
   - basic-auth
   - cors
